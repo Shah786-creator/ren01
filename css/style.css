@@ -14,7 +14,7 @@
     margin-left: 10%;
 }
 body{
-  background:#161C24;
+  background:#161C24 !important;
 }
 canvas{
     height:100vh; background:#161C24;
@@ -69,14 +69,13 @@ canvas{
 }
 #webcoderskull h1{
   color:#EA8923;
-  /* text-shadow: 0px 5px 5px #EA8923; */
-  /* background:rgba(0, 0, 0, 0.6); */
   letter-spacing: 5px;
-  font-size: 5rem;
+  font-size: 50px;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 800;
 }
+
 #webcoderskull a{
   margin-top: 20px;
   background-color:orange;
@@ -168,23 +167,14 @@ section{
 }
 .box:hover{
     box-shadow:none;
-    transition: .5s ease;
-    background:linear-gradient(bottom #E32E2C, #E75F29, #EA7E25,#EA8923, #FF9F55 );
+    background:linear-gradient( to bottom, #FF9F55, #EA8923,  #E75F29, #EA8923);
+    transition: .5s;
 }
 .box h4{
     color:#b0b0b0;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-  /* The actual timeline (the vertical ruler) */
-  .timeline {
+.timeline{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
