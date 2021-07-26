@@ -169,6 +169,7 @@ section{
 .box:hover{
     box-shadow:none;
     transition: .5s ease;
+    background:linear-gradient(bottom #E32E2C, #E75F29, #EA7E25,#EA8923, #FF9F55 );
 }
 .box h4{
     color:#b0b0b0;
